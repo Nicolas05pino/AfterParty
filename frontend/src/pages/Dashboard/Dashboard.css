@@ -83,7 +83,7 @@ ul.notifications li button.reject:hover{
     margin-left: 10px;
   }
   .spots p {
-    color: #278dbd;
+    color: rgba(0, 0, 0, 0.5);
     font-size: 15px;
   }
   .contentDashboard .spot-list > p {

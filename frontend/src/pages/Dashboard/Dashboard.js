@@ -10,6 +10,7 @@ import Video from "../../components/Video/Video";
 import { Container, Modal, Button} from "react-bootstrap";
 import Header from "../../components/Header/Header";
 
+
 const Dashboard = () => {
   const [spots, setSpots] = useState([]);
   const [citySpots, setcitySpots] = useState([]);
@@ -116,7 +117,8 @@ const Dashboard = () => {
  
   return (
     <div className="containerDashboard">
-
+      
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
       <Header />
 
       <ul className="notifications">
@@ -159,8 +161,9 @@ const Dashboard = () => {
       <div className="contentDashboard">
         <Container>
           <h2 className="ferias">Alquilar un lugar</h2>
-          <Link to="/propiedad">
-          <h6>Buscar por sector</h6>
+          <Link to="/propiedad" >
+            <i class="fa fa-search"> Buscar por sector</i>
+          
           </Link>
           <div className="spot-list">
             <Slider {...settings}>
