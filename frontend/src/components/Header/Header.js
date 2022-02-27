@@ -25,6 +25,11 @@ export default function Header() {
                 Rentar mi propiedad
             </button>
         </Link>
+        <Link to="/new">
+            <button className="new">
+                Anunciar evento
+            </button>
+        </Link>
     </Navbar.Collapse>
   </Navbar>
   );

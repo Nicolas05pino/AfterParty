@@ -13,7 +13,7 @@ export default function Experience() {
 
   return (
     <>
-    <h2 className="User">Hola {name}, encuentra donde armar la fiesta!</h2>
+    <h2 className="User">Hola {name}, encuentra o crea la fiesta ideal!</h2>
     <div className="cardStyle">
     
       <div className="Experience">

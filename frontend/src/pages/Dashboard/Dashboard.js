@@ -158,7 +158,10 @@ const Dashboard = () => {
 
       <div className="contentDashboard">
         <Container>
-          <h2 className="ferias">Recomendaciones</h2>
+          <h2 className="ferias">Alquilar un lugar</h2>
+          <Link to="/propiedad">
+          <h6>Buscar por sector</h6>
+          </Link>
           <div className="spot-list">
             <Slider {...settings}>
               {spots.map(spot => (
@@ -191,46 +194,36 @@ const Dashboard = () => {
           </div>
         </Container>
         <Container>
-          <h2 className="ferias">Cerca de ti:</h2>
+          <h2 className="ferias">Fiestas de hoy en tu ciudad:</h2>
+          <Link to="/propiedad">
+          <h6>Ver más</h6>
+          </Link>
           <div className="spot-list">
-            <Slider {...settings}>
-              {spots.map(spot => (
-                
-                     <Link to="/propiedad">
-                                <div>
-                  <div className="contentSpots">
-                    <div className="Image">
-                      <header
-                        style={{
-                          backgroundImage: `url(${spot.thumbnail_url})`
-                          
-                        }}
-                       />
-                    </div>
-                    
-                    <div className="spots">
-                      <strong>{spot.title}</strong>
-                      <p>{spot.city}</p>
-                      <span>
-                        {spot.price ? `R$${spot.price}/dia` : "GRATUITO"}
-                      </span>
-                    </div>
-                  </div>
-                </div>
-                 </Link>
-   
-              ))}
-            </Slider>
+          <div class="spinner-border" role="status">
+           
+          </div>
           </div>
         </Container>
       </div>
 
       <Container>
         <h2 className="ferias">Como funciona?</h2>
-       
+        <div className="spot-list">
+          <div class="spinner-border" role="status">
+           
+          </div>
+          </div>
       </Container>
+
+      <footer class="container">
+    <p class="float-right"></p>
+    <p> Copyright © 2022 AfterParty - Todos los derechos reservados -  <a href="#">Terminos y condiciones</a></p>
+  </footer>
     </div>
+    
   );
+  
 };
+
 
 export default Dashboard;

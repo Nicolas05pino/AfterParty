@@ -80,7 +80,7 @@ label#thumbnail.has-thumbnail img{
     padding: 0 20px;
     font-size: 16px;
     font-weight: bold;
-    background: #f05a5b;
+    background: #d12020;
     color: #fff;
     cursor: pointer
   }
@@ -92,5 +92,5 @@ label#thumbnail.has-thumbnail img{
   }
   
   .contentNew button.btn:hover{
-    background: #e14f50
+    background: #d12020
   }

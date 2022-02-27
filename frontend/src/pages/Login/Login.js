@@ -31,13 +31,13 @@ const Login = ({ history }) => {
      
 
         <div className="contentLogin">
-          <p>Reserve lugares únicos para se hospedar e coisas para fazer.</p>
+          <p>Encuentra el lugar ideal para armar la fiesta!</p>
           <form onSubmit={handleSubmit}>
-            <label htmlFor="email">Nome *</label>
+            <label htmlFor="email">Nombre*</label>
             <input
               type="text"
               id="name"
-              placeholder="Diga-nos seu nome"
+              placeholder="Digita tu nombre"
               value={name}
               onChange={e => setName(e.target.value)}
             />
@@ -45,7 +45,7 @@ const Login = ({ history }) => {
             <input
               type="text"
               id="email"
-              placeholder="Seu melhor e-mail"
+              placeholder="Digita tu e-mail"
               value={email}
               onChange={e => setEmail(e.target.value)}
             />
