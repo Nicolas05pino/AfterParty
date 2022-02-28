@@ -20,16 +20,12 @@ export default function Header() {
         <Nav.Link href="#msg">Más información</Nav.Link>
 
       </Nav>
-      <Link to="/new">
+      <Link to="/Select">
             <button className="new">
-                Rentar mi propiedad
+                Alquilar mi propiedad
             </button>
         </Link>
-        <Link to="/new">
-            <button className="new">
-                Anunciar evento
-            </button>
-        </Link>
+    
     </Navbar.Collapse>
   </Navbar>
   );

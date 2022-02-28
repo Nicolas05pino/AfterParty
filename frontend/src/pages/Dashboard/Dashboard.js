@@ -116,9 +116,10 @@ const Dashboard = () => {
 
  
   return (
+
     <div className="containerDashboard">
-      
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"></link>
       <Header />
 
       <ul className="notifications">
@@ -197,7 +198,7 @@ const Dashboard = () => {
           </div>
         </Container>
         <Container>
-          <h2 className="ferias">Fiestas de hoy en tu ciudad:</h2>
+          <h2 className="ferias">Fiestas de hoy en tu ciudad</h2>
           <Link to="/propiedad">
           <h6>Ver más</h6>
           </Link>
@@ -212,9 +213,7 @@ const Dashboard = () => {
       <Container>
         <h2 className="ferias">Como funciona?</h2>
         <div className="spot-list">
-          <div class="spinner-border" role="status">
-           
-          </div>
+
           </div>
       </Container>
 

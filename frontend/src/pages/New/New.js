@@ -38,7 +38,7 @@ const New = ({ history }) => {
   return (
       <div className="background">
     <div className="containerNew">
-      <img src={logo} alt="airbnb" id="logoAirbnb" />
+      {/* <img src={logo} alt="airbnb" id="logoAirbnb" /> */}
       <div className="contentNew">
         <form onSubmit={handleSubmit}>
           <label
@@ -61,11 +61,7 @@ const New = ({ history }) => {
             placeholder=" Asigna un título a la propiedad"
             onChange={e => setTitle(e.target.value)}
           />
-          <label htmlFor="zona">Zona</label>
-          <select id="list" onchange="getSelectValue();">
-            <option value="direccion1">Dirección 1</option>
-            <option value="direccion2">Dirección 2</option>
-          </select>
+      
 
           <label htmlFor="city">Dirección</label>
           <input
@@ -84,7 +80,7 @@ const New = ({ history }) => {
             placeholder="Con que requerimientos cuentas?"
             onChange={e => setItens(e.target.value)}
           />
-          <label htmlFor="city">Maximo número de personas</label>
+          <label htmlFor="city">Máximo número de personas</label>
           <input
             type="text"
             id="city"
